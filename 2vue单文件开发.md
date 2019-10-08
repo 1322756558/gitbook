@@ -24,7 +24,7 @@ src/components文件夹一般放入单个组件,实现对于单文件组件的�
 
 一个简单组件的写法
 
-```vue
+```html
 <template>
     <li class="item">
         <!--作用域插槽 双向绑定值-->
@@ -158,7 +158,7 @@ vt. 审视
 
 后台将插槽 name="item"
 
-```vue
+```html
 <template>
     <li class="item">
         <slot name="item"></slot>
@@ -172,7 +172,7 @@ vt. 审视
 
 *对于作用域插槽, 作用相反, 是将模板中的一些内容返回到调用页面中, 达到子模板向父页面传递的作用*
 
-```vue
+```html
 <template>
     <li class="item">
         <!--作用域插槽 双向绑定值-->
@@ -215,7 +215,7 @@ vt. 审视
 
 对于简单的vue页面的另一个特点是拥有作用域的style标签
 
-```vue
+```html
 <style scoped>
     .item{
         color: red;

@@ -10,7 +10,7 @@
 
 .sync其实是一种简化的写法, 这里我们想把isShow与父组件中的show进行绑定
 
-```vue
+```html
 <test v-on:update:visible="show"/>
 简写为:
 <test :visible.sync='show'/>

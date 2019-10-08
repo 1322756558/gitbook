@@ -4,7 +4,7 @@
 
 *使用引入的方式引入vue.js*​
 
-```js
+```html
 <script src="https://cdn.jsdelivr.net/npm/vue@2.6.10/dist/vue.js"></script>
 ```
 
@@ -14,7 +14,7 @@
 
 **数据的双向绑定,及组件的定义**
 
-```js
+```html
 <div id="app">
     {{msg}}
 

@@ -18,7 +18,7 @@
 
 与methods比computed只有在返回值变动的时候才会重新渲染, 如果用methods来实现的话, 使用forceUpdate来强制刷新的时候一看到methods会重新渲染, 而computed不会
 
-```js
+```html
 <p>Reversed message1: "{{ reversedMessage1 }}"</p>
 
 data() {
@@ -59,7 +59,7 @@ computed: {
 
 watch
 
-```vue
+```html
 <template>
   <div>
     {{ fullName }}
@@ -94,7 +94,7 @@ export default {
 
 computed
 
-```vue
+```html
 <template>
   <div>
     {{ fullName }}
