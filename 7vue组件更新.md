@@ -113,7 +113,7 @@ export default {
 
 ### 从vue的原理上去解析这个问题
 
-![1569211257695](.\组件更新.png)
+![1569211257695](https://github.com/1322756558/gitbook_vue_note/blob/master/组件更新.png)
 
 从这张图中可以看到, vue有一个数据中间层去间接对页面进行渲染的管理, 对于上面的情况如果数据没有注册(setter)或者调用(getter)时是不会使得页面重新去渲染的
 

@@ -12,7 +12,7 @@
 
 
 
-![](.\vue脚手架搭建完成.png)
+![](https://github.com/1322756558/gitbook_vue_note/blob/master/vue脚手架搭建完成.png)
 
 
 
