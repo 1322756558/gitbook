@@ -178,6 +178,6 @@ export default {
 
 ![1570762579989](./自定义指令生命周期与vue生命周期.png)
 
-![生命周期](.\声明周期.png)
+![生命周期](./声明周期.png)
 
 对比上面的两张图可以看到, 自定义指令的所有阶段均存在于render部分,  其中bind和inserted在创建阶段, update和componentUpdated以及unbind均在更新阶段被调用
