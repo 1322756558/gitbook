@@ -180,4 +180,4 @@ export default {
 
 ![生命周期](./声明周期.png)
 
-对比上面的两张图可以看到, 自定义指令的所有阶段均存在于render部分,  其中bind和inserted在创建阶段, update和componentUpdated以及unbind均在更新阶段被调用
+对比上面的两张图可以看到, 自定义指令的所有阶段均存在于render部分,  其中**第一次**bind和inserted在创建阶段(销毁后重新创建依然在更新阶段), update和componentUpdated以及unbind均在更新阶段被调用
