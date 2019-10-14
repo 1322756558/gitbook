@@ -64,7 +64,7 @@ export default {
 </script>
 ```
 
-可以看到父节点通过provide向下级分发数据-color
+可以看到父节点通过provide向下级分发数据-color, 并且在provide下的数据默认不是响应式的, 但是我们可以通过传this的方法来传递一个可监听对象
 
 ```html
 --------------------E结点-------------------
@@ -137,6 +137,23 @@ export default {
 ```
 
 函数式组件通过injections.theme.color取得数据
+
+这里要注意的是如果我们通过专递可监听对象的来传递值的时候我们会传递很多的不需要的数据, 我们可以通过官方给定的vue.observable方法来选择传递我们需要的数据
+
+```javascript
+provide() {
+    this.theme = Vue.observable({
+      color: "blue"
+    });
+    return {
+      theme: this.theme
+    };
+  },
+```
+
+obervable的作用是让一个对象可相应, vue内部会用它来处理data函数返回的对象
+
+[官方文档](https://cn.vuejs.org/v2/api/#Vue-observable)
 
 
 
