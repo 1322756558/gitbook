@@ -12,6 +12,7 @@
 * [vue生命周期与函数式组件](9vue生命周期与函数式组件.md)
 * [vue指令](10vue指令.md)
 * [provide/inject](11provide_inject)
+* [跨组件获取组件实例](12跨组件获取组件实例.md)
 * 杂记
     * [sync父子组件绑定](sync父子组件绑定.md)
 
