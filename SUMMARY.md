@@ -13,6 +13,7 @@
 * [vue指令](10vue指令.md)
 * [provide/inject](11provide_inject.md)
 * [template_jsx区别与本质](13template_jsx区别与本质.md)
+* [vuex的应用场景](14vuex应用场景.md)
 * 杂记
     * [sync父子组件绑定](sync父子组件绑定.md)
 
