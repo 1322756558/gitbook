@@ -49,4 +49,3 @@ Object.defineProperties(Store.prototype, {
 ```
 
 
-
