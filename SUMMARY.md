@@ -14,6 +14,9 @@
 * [provide/inject](11provide_inject.md)
 * [template_jsx区别与本质](13template_jsx区别与本质.md)
 * [vuex的应用场景](14vuex应用场景.md)
+* [vuex的基本应用](15vuex的基本应用.md)
+* [vuex的核心概念及底层原理](16vuex的核心概念及底层原理.md)
+* [vuex的最佳实践](17vuex的最佳实践.md)
 * 杂记
     * [sync父子组件绑定](./杂记/sync父子组件绑定.md)
     * [原型链与new](./杂记/原型链与new.md)
